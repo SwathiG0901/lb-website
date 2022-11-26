@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*navigation*/
+
+.navigation{
+    
+    height: 35px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 10px;
+
+
+}
+.navlogo img{
+    height:100%;
+    width: 150px;
+}
+.navlist ul{
+    list-style-type:none;
+    display: flex;
+    gap: 150px;
+    padding: 0;
+    cursor: pointer;
+}
+.navsignin button{
+    width:70px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+}
+/*Header*/
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    background-image:url(./assets/website\ pic.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+    
+
+}
+.headercontent h1{
+ 
+    
+}
+.headercontent p{
+    
+ 
+    margin-top: 20px;
+}
+.headercontent button{
+    width: 100px;;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/*section1*/
+
+.section1 {
+    padding: 60px 20px;
+}
+
+.section1header h2{
+
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.section1content p{
+    margin: top 30px;;
+    font-size: 20px;
+    text-align: center;
+    color: #888888;
+
+}
+
+.section1cards{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.section1card {
+    
+    width: 300px;
+    border: 1px solid black;
+
+}
+
+.section1card img{
+    width: 100%;
+    height: 200px;
+}
+.section1card-content {
+    padding: 10px;
+
+}
+.section1card-content h3{
+    font-weight: 400px;
+}
+
+.section1card-content p{
+    font-size: 12px;
+}
+/*section2*/
+.section2{
+  
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    background-image:url(./assets/section2image.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+}
+
+/*section3*/
+
+.section3{
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34px;
+}
+
+.section3container{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.section3item{
+    gap: 10px;
+    width: 200px;
+    display: flex;
+}
+.section3itemicon{
+    width: 150px;
+    color: brown;
+}
+
+.section3itemcontent h2{
+    font-weight: 300;
+
+
+}
+
+
+.section3itemcontent p{
+
+    font-size: 12px;
+    margin-top: 3pt;
+}
+
+/*section4*/
+
+.section4{
+    height:200px;
+    background-color:rgb(40, 33, 33);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .section4container{
+    width: 600px;
+    display: flex;
+    gap: 20px;
+    color: white;
+
+   
+    
+    
+}
+
+.section4image img{
+    width: 240px;
+    height: 240px;
+
+}
+
+
+
+.section4content h1{
+
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+
+}
+
+.section4content p{
+
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.section4content button{
+    margin-top: 5px;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+/*section5*/
+.section5{
+    padding: 60px 0px;
+    justify-content: center;
+    height: 150px;
+    display: flex;
+}
+
+
+.section5container button{
+    background-color: olivedrab;
+    cursor: pointer;
+}
+
+/*footer*/
+
+.footer{
+    margin-top: -98px;
+    padding: 2px 60px;
+    justify-content: center;
+}
+.footerimages{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+
+
+
+
